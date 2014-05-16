@@ -1,16 +1,42 @@
+body {
+	background-color:#283835;
+	font-family:sans serif;
+}
+
+a {
+	color:#7CBCC8;
+	text-decoration:none;
+	transition:1s;
+	-webkit-transition:1s;
+}
+
+a:hover {
+	color:#55818A;
+}
+
+
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #ECF0F1;
 }
 
 #header
 {
-	background: #ccc;
+	background: #E7513B;
 	padding: 20px;
 }
 
-#header h1 { margin: 0; }
+#header h1 {
+	font-size:3em;
+	margin: 0;
+	text-align:center;
+	text-transform:uppercase;
+	color: #D1F1D5;
+	text-shadow:1px 1px 1px #B23F2E,
+				2px 2px 1px #B23F2E,
+				3px 3px 1px #B23F2E;
+}
 
 #navigation
 {
@@ -48,13 +74,9 @@
 	clear: left;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color:#dddddd;
+	-webkit-box-shadow: 1px 1px 1px #888888;
+	box-shadow: 1px 1px 1px #888888;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -62,7 +84,7 @@
 
 #edito h2
 {
-	color: #000;
+	color: #E7513B;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -73,13 +95,9 @@
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	background-color:#dddddd;
+	-webkit-box-shadow: 1px 1px 1px #888888;
+	box-shadow: 1px 1px 1px #888888;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
@@ -88,7 +106,8 @@
 #footer
 {
 	clear: both;
-	background: #ccc;
+	color:#dddddd;
+	background: #283835;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
